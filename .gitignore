@@ -85,3 +85,4 @@ target/
 *.exe
 *.out
 *.app
+*~
