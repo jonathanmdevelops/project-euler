@@ -2,6 +2,9 @@
 
 #include <iostream>
 
+using std::cout;
+using std::endl;
+
 int main() {
     const int LIMIT = 4000000;
     int sum = 0;
@@ -20,6 +23,6 @@ int main() {
         j = temp;
     }
 
-    std::cout << sum << std::endl;
+    cout << sum << endl;
     return 0;
 }

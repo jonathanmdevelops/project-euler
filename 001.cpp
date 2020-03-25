@@ -2,6 +2,9 @@
 
 #include <iostream>
 
+using std::cout;
+using std::endl;
+
 int main() {
     const short LIMIT = 1000;
     int sum = 0;
@@ -9,6 +12,6 @@ int main() {
     for(int i = LIMIT; i--; i > 2) {
         (i % 3 == 0 || i % 5 == 0)? sum += i:sum += 0;
     }
-    std::cout << sum << std::endl;
+    cout << sum << endl;
     return 0;
 }
