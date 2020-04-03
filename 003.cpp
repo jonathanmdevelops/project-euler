@@ -16,7 +16,7 @@ long SmallestPrimeFactor(const long kNumber) {
 
 int main() {
     long n = 600851475143;
-    // Continously divide n by its smallest prime factor
+    // Continously divide n by its smallest prime factor until p >= n
     while(true) {
         long p = SmallestPrimeFactor(n);
         if(p < n) {
